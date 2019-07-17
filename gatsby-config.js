@@ -28,6 +28,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("sass"),
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID

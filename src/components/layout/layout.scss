@@ -3,6 +3,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -620,3 +621,29 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.content-wrapper {
+  padding-left: 300px;
+}
+
+.main-wrapper {
+  padding: 20px;
+}
+
+.footer-wrapper {
+  padding: 0 20px;
+}
+
+:root {
+  // Understandable Variables Names
+  --dark-gray: #444;
+  --black: #000;
+
+  // background Colors  
+  --main-bg-color: var(--dark-gray);
+  --secondary-bg-color: var(--dark-gray);
+
+  // Text Colors  
+  --main-text-color: var(--black);
+}
+
