@@ -1,19 +1,30 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
-import Image from "../components/image"
+import About from "../components/about/about"
+import Skills from "../components/skills/skills"
+import Projects from "../components/projects/projects"
+import Blog from "../components/blog/blog"
+import Contact from "../components/contact/contact"
+
+// import Image from "../components/image"
 import SEO from "../components/seo"
+
+import '../components/normalize.scss'
+import '../components/variables.scss'
+import '../components/global.scss'
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <p>Hello and thank you for visiting my website. Please bare with me while I'm rebuilding my website using modern tools like React.</p>
-    <h1>Please Come Back Again</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    
+    <About />
+    <Skills />
+    <Projects />
+    <Blog />
+    <Contact />
   </Layout>
 )
 
