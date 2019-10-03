@@ -12,7 +12,7 @@ const Contact = () => (
 
             <div role="form" className="wpcf7" id="wpcf7-f14-p187-o1">
               <form className="wpcf7-form" name="contact-me" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                <p class="hidden">
+                <p className="hidden">
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
 

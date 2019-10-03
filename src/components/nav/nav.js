@@ -14,107 +14,98 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import './nav.scss'
 import HeadShot from '../../images/mugshot.png'
 
-
-// Smooth Scroll to #links ============================================= //
-
-//get all # links in the document
-var links = document.querySelectorAll('a[href*="#"]');
-
-//assign a click event to all the # links
-for(var l = 0; l < links.length; l++) {
-    links[l].addEventListener('click', scrollMe, false);
-}
-
-function scrollMe(e) {
-    e.preventDefault(); //needed in order for the scroll to work
-
-    var hash = e.target.hash;
-
-    //check if hash is not empty
-    if(hash) {   
-
-        // Scroll to that element
-        document.querySelector(hash).scrollIntoView({ 
-           behavior: 'smooth'
-        });
+class Nav extends React.Component {
+   constructor(props) {
+      super(props);
+      this.state = {addClass: false}
     }
-}
+    toggle() {
+      this.setState({addClass: !this.state.addClass});
+    }
+ 
+   render() {
+      let boxClass = [" open"];
+      if(this.state.addClass) {
+        boxClass.push('close');
+      }
 
+     return (
 
-const Nav = () => (
-   <nav className="nav-container">
-      <div id="menuToggle" className="button-container"> 
-         <span></span>
-         <span></span>
-         <span></span>
-      </div>
+      <nav className={"nav-container" +  boxClass.join(' ')}>
+         <div onClick={this.toggle.bind(this)} id="menuToggle" className="button-container menu"> 
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
 
-      <div className="nav-content">
-         <div className="nav-content-box">
-            <h2 className="heading-name">
-               <span className="mobile-heading-name">LA</span>
-               <span className="desktop-heading-name">Luis Amador</span>
-            </h2>
+         <div className="nav-content">
+            <div className="nav-content-box">
+               <h2 className="heading-name">
+                  <span className="mobile-heading-name">LA</span>
+                  <span className="desktop-heading-name">Luis Amador</span>
+               </h2>
 
-            <div className="head-shot">
-               <img src={HeadShot} alt="" />
-            </div>
+               <div className="head-shot">
+                  <img src={HeadShot} alt="" />
+               </div>
 
-            <ul className="nav-lists">
-               <li className="nav-list">
-                  <AnchorLink href="#about-me">
-                        <span className="mobile-menu-name"><PersonIcon fontSize="large" /></span>
-                        <span className="desktop-menu-name">About Me</span>
-                  </AnchorLink>
-               </li>
+               <ul className="nav-lists">
+                  <li className="nav-list">
+                     <AnchorLink href="#about-me">
+                           <span className="mobile-menu-name"><PersonIcon fontSize="large" /></span>
+                           <span className="desktop-menu-name">About Me</span>
+                     </AnchorLink>
+                  </li>
 
-               <li className="nav-list">
-                  <AnchorLink href="#skills">
-                        <span className="mobile-menu-name"><InfoIcon fontSize="large" /></span>
-                        <span className="desktop-menu-name">My Expertise</span>
-                  </AnchorLink>
-               </li>
+                  <li className="nav-list">
+                     <AnchorLink href="#skills">
+                           <span className="mobile-menu-name"><InfoIcon fontSize="large" /></span>
+                           <span className="desktop-menu-name">My Expertise</span>
+                     </AnchorLink>
+                  </li>
 
-               <li className="nav-list">
-                  <AnchorLink href="#projects">
-                        <span className="mobile-menu-name"><WorkIcon fontSize="large" /></span>
-                        <span className="desktop-menu-name">Projects</span>
-                  </AnchorLink>
-               </li>
+                  <li className="nav-list">
+                     <AnchorLink href="#projects">
+                           <span className="mobile-menu-name"><WorkIcon fontSize="large" /></span>
+                           <span className="desktop-menu-name">Projects</span>
+                     </AnchorLink>
+                  </li>
 
-               <li className="nav-list">
-                  <AnchorLink href="#blog">
-                        <span className="mobile-menu-name"><TimelineIcon fontSize="large" /></span>
-                        <span className="desktop-menu-name">Blog</span>
-                  </AnchorLink>
-               </li>
+                  <li className="nav-list">
+                     <AnchorLink href="#blog">
+                           <span className="mobile-menu-name"><TimelineIcon fontSize="large" /></span>
+                           <span className="desktop-menu-name">Blog</span>
+                     </AnchorLink>
+                  </li>
 
-               <li className="nav-list">
-                  <AnchorLink href="#contact-me">
-                        <span className="mobile-menu-name"><ContactMailIcon fontSize="large" /></span>
-                        <span className="desktop-menu-name">Contact Me</span>
-                  </AnchorLink>
-               </li>
-            </ul>
-
-            <div className="social-container">
-               <ul className="social-lists">
-               <li className="social-list icon-linkedin">
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mrluisamador"><LinkedInIcon id="linkedin" fontSize="large" /></a>
-               </li>
-
-               <li className="social-list icon-twitter">
-                  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mrluisamador"><TwitterIcon id="twitter" fontSize="large" /></a>
-               </li>
-
-               <li className="social-list icon-github">
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/MrLuisAmador"><CodeIcon id="github" fontSize="large" /></a>
-               </li>
+                  <li className="nav-list">
+                     <AnchorLink href="#contact-me">
+                           <span className="mobile-menu-name"><ContactMailIcon fontSize="large" /></span>
+                           <span className="desktop-menu-name">Contact Me</span>
+                     </AnchorLink>
+                  </li>
                </ul>
+
+               <div className="social-container">
+                  <ul className="social-lists">
+                  <li className="social-list icon-linkedin">
+                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mrluisamador"><LinkedInIcon id="linkedin" fontSize="large" /></a>
+                  </li>
+
+                  <li className="social-list icon-twitter">
+                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mrluisamador"><TwitterIcon id="twitter" fontSize="large" /></a>
+                  </li>
+
+                  <li className="social-list icon-github">
+                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/MrLuisAmador"><CodeIcon id="github" fontSize="large" /></a>
+                  </li>
+                  </ul>
+               </div>
             </div>
          </div>
-      </div>
-   </nav>
-)
+      </nav>     
+     );
+   }
+ }
 
 export default Nav

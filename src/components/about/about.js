@@ -2,7 +2,7 @@ import React from "react"
 import "./about.scss"
 
 const About = () => (
-    <section id="about-me" className="scrollto" tabindex="-1">
+    <section id="about-me" className="scrollto">
         <div className="about-me__wrapper">
         <div className="about-me__content">
             <h1 className="about-me__title">About Me</h1>

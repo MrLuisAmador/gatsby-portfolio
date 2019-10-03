@@ -30,7 +30,7 @@ class Projects extends React.Component {
           <div className="projects__title-title-wrap">
             <h2 className="projects__title">Projects</h2>
 
-            <h3 className="projects__sub-title">List of Projects I have been a part of.</h3>
+            <h3 className="projects__sub-title">List of Projects.</h3>
           </div>
 
           <div className="filter-btn">
@@ -45,7 +45,7 @@ class Projects extends React.Component {
 
           <div id="filter-container" className="grid">
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://www.syndicatedistribution.com/us/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.syndicatedistribution.com/us/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -62,7 +62,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://www.vaprzon.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.vaprzon.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -79,7 +79,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" href="https://gme.healthquest.org/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://gme.healthquest.org/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -95,7 +95,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" href="https://www.thinkdifferently.net/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.thinkdifferently.net/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -112,7 +112,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" href="http://www.zarembabrown.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.zarembabrown.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -128,7 +128,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" href="http://www.westchesterbusinesscenter.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.westchesterbusinesscenter.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -144,7 +144,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" href="http://thebonecompany.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://thebonecompany.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -160,7 +160,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" href="http://suburbanpest.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://suburbanpest.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -176,7 +176,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">          
-                <a className="grid-item__link" target="_blank" href="http://www.ossiningchildrenscenter.org/">
+                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.ossiningchildrenscenter.org/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -193,7 +193,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" href="http://www.legaleaseinc.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.legaleaseinc.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -209,7 +209,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" href="http://www.kelly-ip.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.kelly-ip.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -225,7 +225,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" href="http://www.climbleadership.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.climbleadership.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -241,7 +241,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">           
-                <a className="grid-item__link" target="_blank" href="http://www.1-800dogbone.com/">
+                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.1-800dogbone.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -258,7 +258,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" href="http://www.mrluisamador.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.mrluisamador.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -274,7 +274,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://la.bridgeprops.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://la.bridgeprops.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -290,7 +290,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://primitivesbykathy.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://primitivesbykathy.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -306,7 +306,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">             
-                <a className="grid-item__link" target="_blank" href="https://www.organicpharmer.com/">
+                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.organicpharmer.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -322,7 +322,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://www.beautyplussalon.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.beautyplussalon.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -338,7 +338,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://www.simoneperele.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.simoneperele.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
@@ -354,7 +354,7 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" href="https://juliab.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://juliab.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer" src="http://mrluisamador.com/wp-content/uploads/2017/08/juliab.png"
