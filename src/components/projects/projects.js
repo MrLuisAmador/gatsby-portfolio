@@ -1,5 +1,5 @@
 import React from "react"
-import Isotope from "isotope-layout/js/isotope";
+import Isotope from "isotope-layout";
 import "./projects.scss"
 
 
