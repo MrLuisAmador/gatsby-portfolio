@@ -18,7 +18,7 @@ const Blog = () => (
                 languages&nbsp;can be […]</p>
               <p></p>
 
-              <a className="read-more-link" href="http://mrluisamador.com/javascript-compared-to-php-series/"> Read
+              <a className="read-more-link" href="//blog.mrluisamador.com/javascript-compared-to-php-series/"> Read
                 More...</a>
             </div>
 
@@ -34,7 +34,7 @@ const Blog = () => (
                 which gives […]</p>
               <p></p>
 
-              <a className="read-more-link" href="http://mrluisamador.com/magento-2-ultimo-slideshow/"> Read More...</a>
+              <a className="read-more-link" href="//blog.mrluisamador.com/magento-2-ultimo-slideshow/"> Read More...</a>
             </div>
 
           </div>

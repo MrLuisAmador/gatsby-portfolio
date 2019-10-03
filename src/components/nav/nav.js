@@ -1,5 +1,5 @@
 import React from "react"
-// import Image from "../image"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import PersonIcon from '@material-ui/icons/Person';
 import InfoIcon from '@material-ui/icons/Info';
@@ -15,11 +15,31 @@ import './nav.scss'
 import HeadShot from '../../images/mugshot.png'
 
 
+// Smooth Scroll to #links ============================================= //
 
+//get all # links in the document
+var links = document.querySelectorAll('a[href*="#"]');
 
-// function onClick(props) {
-//    console.log('clicked');
-// }
+//assign a click event to all the # links
+for(var l = 0; l < links.length; l++) {
+    links[l].addEventListener('click', scrollMe, false);
+}
+
+function scrollMe(e) {
+    e.preventDefault(); //needed in order for the scroll to work
+
+    var hash = e.target.hash;
+
+    //check if hash is not empty
+    if(hash) {   
+
+        // Scroll to that element
+        document.querySelector(hash).scrollIntoView({ 
+           behavior: 'smooth'
+        });
+    }
+}
+
 
 const Nav = () => (
    <nav className="nav-container">
@@ -42,38 +62,38 @@ const Nav = () => (
 
             <ul className="nav-lists">
                <li className="nav-list">
-               <a href="#about-me">
-                     <span className="mobile-menu-name"><PersonIcon fontSize="large" /></span>
-                     <span className="desktop-menu-name">About Me</span>
-               </a>
+                  <AnchorLink href="#about-me">
+                        <span className="mobile-menu-name"><PersonIcon fontSize="large" /></span>
+                        <span className="desktop-menu-name">About Me</span>
+                  </AnchorLink>
                </li>
 
                <li className="nav-list">
-               <a href="#my-expertise">
-                     <span className="mobile-menu-name"><InfoIcon fontSize="large" /></span>
-                     <span className="desktop-menu-name">My Expertise</span>
-               </a>
+                  <AnchorLink href="#skills">
+                        <span className="mobile-menu-name"><InfoIcon fontSize="large" /></span>
+                        <span className="desktop-menu-name">My Expertise</span>
+                  </AnchorLink>
                </li>
 
                <li className="nav-list">
-               <a href="#projects">
-                     <span className="mobile-menu-name"><WorkIcon fontSize="large" /></span>
-                     <span className="desktop-menu-name">Projects</span>
-               </a>
+                  <AnchorLink href="#projects">
+                        <span className="mobile-menu-name"><WorkIcon fontSize="large" /></span>
+                        <span className="desktop-menu-name">Projects</span>
+                  </AnchorLink>
                </li>
 
                <li className="nav-list">
-               <a href="#blog">
-                     <span className="mobile-menu-name"><TimelineIcon fontSize="large" /></span>
-                     <span className="desktop-menu-name">Blog</span>
-               </a>
+                  <AnchorLink href="#blog">
+                        <span className="mobile-menu-name"><TimelineIcon fontSize="large" /></span>
+                        <span className="desktop-menu-name">Blog</span>
+                  </AnchorLink>
                </li>
 
                <li className="nav-list">
-               <a href="#contact-me">
-                     <span className="mobile-menu-name"><ContactMailIcon fontSize="large" /></span>
-                     <span className="desktop-menu-name">Contact Me</span>
-               </a>
+                  <AnchorLink href="#contact-me">
+                        <span className="mobile-menu-name"><ContactMailIcon fontSize="large" /></span>
+                        <span className="desktop-menu-name">Contact Me</span>
+                  </AnchorLink>
                </li>
             </ul>
 

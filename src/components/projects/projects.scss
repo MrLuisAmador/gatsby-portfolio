@@ -1,6 +1,6 @@
 .projects {
 	background-color: #d35400;
-	padding: 10rem 0 0;
+	padding: 10rem 0;
 }
 
 .projects__title-title-wrap {
@@ -26,6 +26,8 @@
 
 .grid {
 	max-width: 100%;
+	display: flex;
+    flex-wrap: wrap;
 }
 
 .grid-item {
@@ -79,14 +81,20 @@
 
 .filter-btn button {
 	display: inline-block;
-	padding: 10px 15px;
-	margin-bottom: 10px;
-	background: #e6e6e6;
-	border: none;
-	color: #222;
-	font-family: sans-serif;
-	font-size: 14px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    transition: background-color 500ms;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
 	cursor: pointer;
+	margin-right: 5px;
+
+	&:last-child {
+		margin-right: 0;
+	}
 
 	&:first-child {
 		border-radius: 0.5em 0 0 0.5em;
@@ -109,4 +117,6 @@
 	&.is-checked {
 		color: #fff;
 	}
+
+
 }
