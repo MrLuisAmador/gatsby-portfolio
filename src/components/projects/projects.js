@@ -3,6 +3,17 @@ import Isotope from "isotope-layout";
 import "./projects.scss"
 
 
+// Requiring function causes error during builds
+// as the code tries to reference window
+const module = require("module") // Error
+
+// Wrap the require in check for window
+if (typeof window !== `undefined`) {
+  const module = require("module")
+}
+
+const module = typeof window !== `undefined` ? require("module") : null
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
