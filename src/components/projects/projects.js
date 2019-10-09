@@ -49,7 +49,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2019/04/syndicatedistribution-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2019/04/syndicatedistribution-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
                     </div>
 
@@ -66,7 +66,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-02-at-10.02.03-PM-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-02-at-10.02.03-PM-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
                     </div>
 
@@ -83,7 +83,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2018/04/gme-healthquest-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2018/04/gme-healthquest-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -99,7 +99,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2018/04/thinkdifferently-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2018/04/thinkdifferently-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
                     </div>
 
@@ -112,11 +112,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.zarembabrown.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.zarembabrown.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/zarembabrown.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/zarembabrown.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -128,11 +128,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.westchesterbusinesscenter.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.westchesterbusinesscenter.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/westchesterbusinesscenter.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/westchesterbusinesscenter.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -144,11 +144,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://thebonecompany.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.thebonecompany.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/thebonecompany.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/thebonecompany.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -160,11 +160,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://suburbanpest.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.suburbanpest.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/suburbanpest.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/suburbanpest.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -176,11 +176,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">          
-                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.ossiningchildrenscenter.org/">
+                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.ossiningchildrenscenter.org/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/ossiningchildrenscenter.org_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/ossiningchildrenscenter.org_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" />
                      </div>
 
@@ -193,11 +193,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.legaleaseinc.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.legaleaseinc.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/legaleaseinc.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/legaleaseinc.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -209,11 +209,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.kelly-ip.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.kelly-ip.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/kelly-ip.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/kelly-ip.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -225,11 +225,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.climbleadership.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.climbleadership.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/climbleadership.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/climbleadership.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /></div>
 
                   <ul className="project-box__content">
@@ -241,11 +241,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">           
-                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.1-800dogbone.com/">
+                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.1-800dogbone.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/11/1-800dogbone.com_-800x389.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/11/1-800dogbone.com_-800x389.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
                     </div>
 
@@ -258,11 +258,11 @@ class Projects extends React.Component {
             </div>
 
             <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.mrluisamador.com/">
+              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://blog.www.mrluisamador.com/">
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/08/mrluisamador.com_.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/mrluisamador.com_.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -278,7 +278,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/08/bridgeprops.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/bridgeprops.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -294,7 +294,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/08/primitivesbykathy.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/primitivesbykathy.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -310,7 +310,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/08/organicpharmer.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/organicpharmer.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -326,7 +326,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/08/beautyplussalon.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/beautyplussalon.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -342,7 +342,7 @@ class Projects extends React.Component {
                 <div className="project-box">
                   <div className="project-box__img">
                     <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://mrluisamador.com/wp-content/uploads/2017/08/simoneperele.png"
+                      src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/simoneperele.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> </div>
 
                   <ul className="project-box__content">
@@ -357,7 +357,7 @@ class Projects extends React.Component {
               <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://juliab.com/">
                 <div className="project-box">
                   <div className="project-box__img">
-                    <img width="800" height="389" rel="noopener noreferrer" src="http://mrluisamador.com/wp-content/uploads/2017/08/juliab.png"
+                    <img width="800" height="389" rel="noopener noreferrer" src="http://blog.mrluisamador.com/wp-content/uploads/2017/08/juliab.png"
                       className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
                 </div>
 
