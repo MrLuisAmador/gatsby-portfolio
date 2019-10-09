@@ -11,10 +11,8 @@ const Contact = () => (
               take a few minutes to tell me about it.</p>
 
             <div role="form" className="wpcf7" id="wpcf7-f14-p187-o1">
-              <form className="wpcf7-form" name="contact-me" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                <p className="hidden">
-                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                </p>
+              <form className="wpcf7-form" name="contact-me" method="post" action="/success" data-netlify="true"data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />
 
                 <p>
                     <span className="wpcf7-form-control-wrap your-name">
