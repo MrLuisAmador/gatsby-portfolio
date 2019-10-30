@@ -46,7 +46,7 @@ class Nav extends React.Component {
                </h2>
 
                <div className="head-shot">
-                  <img src={HeadShot} alt="" />
+                  <img src={HeadShot} alt="Head Shot" />
                </div>
 
                <ul className="nav-lists">

@@ -27,6 +27,19 @@ module.exports = {
         icon: `src/images/mugshot.png`, // This path is relative to the root of the site.
       },
     },
+    // Simple config, passing URL
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // This type will contain remote schema Query type
+        typeName: "WP",
+        // This is field under which it's accessible
+        fieldName: "wp",
+        // Url to query from
+        url: "http://blog.mrluisamador.com/graphql",
+        refetchInterval: 60,
+      },
+    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
