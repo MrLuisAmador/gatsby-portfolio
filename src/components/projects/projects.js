@@ -44,40 +44,6 @@ class Projects extends React.Component {
           </div>
 
           <div id="filter-container" className="grid">
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.syndicatedistribution.com/us/">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://blog.mrluisamador.com/wp-content/uploads/2019/04/syndicatedistribution-800x389.png"
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
-                    </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 2</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.vaprzon.com/">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img width="800" height="389" rel="noopener noreferrer"
-                      src="http://blog.mrluisamador.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-02-at-10.02.03-PM-800x389.png"
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image" alt="" /> 
-                    </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 2</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
             <div className="grid-item wordpress-projects filter-item filter-two">
               <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://gme.healthquest.org/">
                 <div className="project-box">
