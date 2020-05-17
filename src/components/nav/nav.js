@@ -32,11 +32,11 @@ class Nav extends React.Component {
      return (
 
       <nav className={"nav-container" +  boxClass.join(' ')}>
-         <div onClick={this.toggle.bind(this)} id="menuToggle" className="button-container menu"> 
-            <span></span>
-            <span></span>
-            <span></span>
-         </div>
+         {/*<div onClick={this.toggle.bind(this)} id="menuToggle" className="button-container menu"> */}
+         {/*   <span></span>*/}
+         {/*   <span></span>*/}
+         {/*   <span></span>*/}
+         {/*</div>*/}
 
          <div className="nav-content">
             <div className="nav-content-box">
