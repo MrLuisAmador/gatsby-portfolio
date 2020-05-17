@@ -1,6 +1,8 @@
 import React from "react"
+import { Link } from "gatsby"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+import HomeIcon from '@material-ui/icons/Home';
 import PersonIcon from '@material-ui/icons/Person';
 import InfoIcon from '@material-ui/icons/Info';
 import TimelineIcon from '@material-ui/icons/Timeline';
@@ -50,6 +52,13 @@ class Nav extends React.Component {
                </div>
 
                <ul className="nav-lists">
+                 <li className="nav-list">
+                   <Link to="/">
+                     <span className="mobile-menu-name"><HomeIcon fontSize="large" /></span>
+                     <span className="desktop-menu-name">Home</span>
+                   </Link>
+                 </li>
+
                   <li className="nav-list">
                      <AnchorLink href="#about-me">
                            <span className="mobile-menu-name"><PersonIcon fontSize="large" /></span>
