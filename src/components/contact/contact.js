@@ -12,10 +12,10 @@ const Contact = () => {
                 </p>
 
                 <form name="contact-me"
-                      method="post"
-                      action="/success"
-                      data-netlify="true"
-                      data-netlify-honeypot="bot-field"
+                  method="post"
+                  action="/success"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
                 >
                     <input type="hidden" name="bot-field"/>
 
@@ -24,7 +24,6 @@ const Contact = () => {
                            required="required"
                            maxLength="20"
                            minlength="2"
-                           pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"
                            type="text"
                            name="name"
                            size="40"
@@ -39,7 +38,8 @@ const Contact = () => {
                         <input
                            required="required"
                            type="email"
-                           name="email" size="40"
+                           name="email"
+                           size="40"
                            className="wpcf7-form-control-wrap__input"
                            id="email"
                            placeholder="Email"
@@ -52,7 +52,6 @@ const Contact = () => {
                             required="required"
                             maxLength="20"
                             minlength="2"
-                            pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"
                             type="text"
                             name="subject"
                             size="40"
