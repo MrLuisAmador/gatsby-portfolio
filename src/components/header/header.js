@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       <h1 className="header-title">Luis Amador</h1>
 
       <h2 className="header-subtitle">
-        <span className="typejs">Web Developer, making the web a better experience.</span>
+        <span className="typejs">Web Developer, making the web a better place.</span>
         <span className="typed-cursor">|</span>
       </h2>
 
