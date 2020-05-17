@@ -1,11 +1,16 @@
 import React from "react"
+import { Link } from "gatsby"
+
 import SecondLayout from "../components/layout/second-layout"
+
+import "../components/contact/success.scss"
 
 export default () => (
   <SecondLayout>
-  <section className="">
-    <h2>You dropped me a new line</h2>
-    <h4> Congrats,i&#39;ll be sure to check it out when i can and add a reply</h4>
+  <section className="success-container">
+    <h2>Thank you for reaching out.</h2>
+    <h3>I'll be getting back to you shortly</h3>
+    <p>Return back to <Link className="home-link" to="/">home</Link></p>
   </section>
   </SecondLayout>
 )
