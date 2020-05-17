@@ -23,7 +23,7 @@ const Contact = () => {
                         <input
                            required="required"
                            maxLength="20"
-                           minlength="2"
+                           minLength="2"
                            type="text"
                            name="name"
                            size="40"
@@ -51,7 +51,7 @@ const Contact = () => {
                         <input
                             required="required"
                             maxLength="20"
-                            minlength="2"
+                            minLength="2"
                             type="text"
                             name="subject"
                             size="40"
