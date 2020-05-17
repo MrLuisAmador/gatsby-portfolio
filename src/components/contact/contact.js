@@ -30,7 +30,7 @@ const Contact = () => {
                            className="wpcf7-form-control-wrap__input"
                            id="your-name"
                            placeholder="Name"
-                           autocomplete="off"
+                           autoComplete="off"
                         />
                     </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
                            className="wpcf7-form-control-wrap__input"
                            id="email"
                            placeholder="Email"
-                           autocomplete="off"
+                           autoComplete="off"
                         />
                     </div>
 
@@ -58,27 +58,27 @@ const Contact = () => {
                             className="wpcf7-form-control-wrap__input"
                             id="subject"
                             placeholder="Subject"
-                            autocomplete="off"
+                            autoComplete="off"
                          />
 
                     </div>
 
                     <div className="textarea-field-container">
                         <textarea
-                          minlength="20"
+                          minLength="20"
                           required="required"
                           id="area" name="area"
                           cols="40"
                           rows="10"
                           className="wpcf7-form-control-wrap__text-area"
                           placeholder="Let's Talk! Tell me about your project..."
-                          autocomplete="off"
+                          autoComplete="off"
                         >
                         </textarea>
                     </div>
 
                     <div className="submit-field-container">
-                        <input role="button" id="submit" type="submit" value="Send It!" className="wpcf7-form-control-wrap__submit"/>
+                        <input id="submit" type="submit" value="Send It!" className="wpcf7-form-control-wrap__submit"/>
                     </div>
                 </form>
             </div>
