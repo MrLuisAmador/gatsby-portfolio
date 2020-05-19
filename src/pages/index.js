@@ -5,7 +5,7 @@ import Layout from "../components/layout/layout"
 import About from "../components/about/about"
 import Skills from "../components/skills/skills"
 import Projects from "../components/projects/projects"
-import Blog from "../components/blog/blog"
+import BlogWidget from "../components/blog/blog-widget"
 import Contact from "../components/contact/contact"
 
 // import Image from "../components/image"
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <About />
     <Skills />
     <Projects />
-    <Blog />
+    <BlogWidget />
     <Contact />
   </Layout>
 )

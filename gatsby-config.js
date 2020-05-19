@@ -20,7 +20,19 @@ module.exports = {
         name: `blog`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -33,19 +45,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/mugshot.png`, // This path is relative to the root of the site.
-      },
-    },
-    // Simple config, passing URL
-    {
-      resolve: "gatsby-source-graphql",
-      options: {
-        // This type will contain remote schema Query type
-        typeName: "WP",
-        // This is field under which it's accessible
-        fieldName: "wp",
-        // Url to query from
-        url: "http://blog.mrluisamador.com/graphql",
-        refetchInterval: 60,
       },
     },
     {
@@ -67,7 +66,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-70247510-1",
       },
     },
