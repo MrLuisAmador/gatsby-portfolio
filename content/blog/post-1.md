@@ -2,6 +2,7 @@
 slug: "/blog/javascript-compared-to-php-series"
 date: "2018-10-31"
 title: "JavaScript Compared to PHP Series"
+excerpt: What are the two language purposes? After several years of web development. I’ve decided to compare JavaScript and PHP head to head. I will try to outline its comparison on a side by side outline, in an effort to truly understand how each work, and how they differ from each other. Both these languages can be
 ---
 
 ## What are the two language purposes?

@@ -1,7 +1,8 @@
 ---
 slug: "/blog/magento-2-ultimo-slideshow"
-date: "2019-05-04"
-title: "Add a slideshow to your Magento 2 site using the Ultimo theme"
+date: "2017-05-17"
+title: "Add a slideshow to your Magento 2"
+excerpt: When it comes to picking a good theme as a starting point, the Ultimo theme seems to be the one we go with the most. It does come with some advanced admin modules and it’s extremely customizable. Making it the number one selling Magento theme on themeforest.net. Ultimo is equipped with administrative module which gives
 ---
 
 When it comes to picking a good theme as a starting point, the Ultimo theme seems to be the one we go with the most. It does come with some advanced admin modules and it’s extremely customizable. Making it the number one selling Magento theme on themeforest.net.

@@ -19,7 +19,6 @@ import '../components/global.scss'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    
     <About />
     <Skills />
     <Projects />
