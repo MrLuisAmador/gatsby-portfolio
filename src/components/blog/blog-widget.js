@@ -48,7 +48,7 @@ const BlogWidget = () => {
 
           </div>
 
-          <Link style={{display: "none"}} className="blog-btn" to="/blog">More Blogs</Link>
+          <Link className="blog-btn" to="/blog">More Blogs</Link>
         </section>
       )}
     />

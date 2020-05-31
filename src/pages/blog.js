@@ -17,7 +17,7 @@ const Blog = ({
   return (
     <SecondLayout>
       <SEO title="Blog" keywords={[`gatsby`, `application`, `react`]} />
-      <div>{Posts}</div>
+      <div className="blog-list-container">{Posts}</div>
     </SecondLayout>
   )
 }

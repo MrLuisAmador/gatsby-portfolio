@@ -43,12 +43,16 @@ class Nav extends React.Component {
          <div className="nav-content">
             <div className="nav-content-box">
                <h2 className="heading-name">
-                  <span className="mobile-heading-name">LA</span>
-                  <span className="desktop-heading-name">Luis Amador</span>
+                  <Link className="font-color" to="/">
+                     <span className="mobile-heading-name">LA</span>
+                     <span className="desktop-heading-name">Luis Amador</span>
+                  </Link>
                </h2>
 
                <div className="head-shot">
-                  <img src={HeadShot} alt="Head Shot" />
+                  <Link to="/">
+                     <img src={HeadShot} alt="Head Shot" />
+                  </Link>
                </div>
 
                <ul className="nav-lists">

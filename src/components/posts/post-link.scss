@@ -1,0 +1,29 @@
+.blog-list-container {
+  padding: 60px 20px;
+  background-image: url(../../images/body-bg.png);
+}
+
+.article-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 10px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.article-link {
+  color: initial;
+}
+
+.article-title {
+  margin-bottom: 10px;
+}
+
+.article-date {
+  display: block;
+}
+
+.article-excerpt {
+  line-height: 1.5;
+}
