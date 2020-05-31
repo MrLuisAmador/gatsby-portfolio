@@ -3,8 +3,10 @@ module.exports = {
     title: `Luis Amador Portfolio`,
     description: `Luis Amador Web Developer Portfolio Website And Blog`,
     author: `Luis Amador`,
+    siteUrl: `https://www.mrluisamador.com/`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
