@@ -31,6 +31,7 @@ const Contact = () => {
                            id="your-name"
                            placeholder="Name"
                            autoComplete="off"
+                           aria-label="Name"
                         />
                     </div>
 
@@ -44,6 +45,7 @@ const Contact = () => {
                            id="email"
                            placeholder="Email"
                            autoComplete="off"
+                           aria-label="Email"
                         />
                     </div>
 
@@ -59,6 +61,7 @@ const Contact = () => {
                             id="subject"
                             placeholder="Subject"
                             autoComplete="off"
+                            aria-label="Subject"
                          />
 
                     </div>
@@ -73,6 +76,7 @@ const Contact = () => {
                           className="wpcf7-form-control-wrap__text-area"
                           placeholder="Let's Talk! Tell me about your project..."
                           autoComplete="off"
+                          aria-label="Enter your comment"
                         >
                         </textarea>
                     </div>

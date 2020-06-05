@@ -42,12 +42,12 @@ class Nav extends React.Component {
 
          <div className="nav-content">
             <div className="nav-content-box">
-               <h2 className="heading-name">
+               <h3 className="heading-name">
                   <Link className="font-color" to="/">
                      <span className="mobile-heading-name">LA</span>
                      <span className="desktop-heading-name">Luis Amador</span>
                   </Link>
-               </h2>
+               </h3>
 
                <div className="head-shot">
                   <Link to="/">
@@ -102,15 +102,15 @@ class Nav extends React.Component {
                <div className="social-container">
                   <ul className="social-lists">
                   <li className="social-list icon-linkedin">
-                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mrluisamador"><LinkedInIcon id="linkedin" fontSize="large" /></a>
+                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mrluisamador" aria-label="LinkedIn"><LinkedInIcon id="linkedin" fontSize="large" /></a>
                   </li>
 
                   <li className="social-list icon-twitter">
-                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mrluisamador"><TwitterIcon id="twitter" fontSize="large" /></a>
+                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mrluisamador" aria-label="Twitter"><TwitterIcon id="twitter" fontSize="large" /></a>
                   </li>
 
                   <li className="social-list icon-github">
-                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/MrLuisAmador"><CodeIcon id="github" fontSize="large" /></a>
+                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/MrLuisAmador" aria-label="Github"><CodeIcon id="github" fontSize="large" /></a>
                   </li>
                   </ul>
                </div>
