@@ -57,42 +57,42 @@ class Nav extends React.Component {
 
                <ul className="nav-lists">
                  <li className="nav-list">
-                   <Link to="/">
+                   <Link to="/" aria-label="Home">
                      <span className="mobile-menu-name"><HomeIcon fontSize="large" /></span>
                      <span className="desktop-menu-name">Home</span>
                    </Link>
                  </li>
 
                   <li className="nav-list">
-                     <AnchorLink href="#about-me">
+                     <AnchorLink href="#about-me" aria-label="About Me">
                            <span className="mobile-menu-name"><PersonIcon fontSize="large" /></span>
                            <span className="desktop-menu-name">About Me</span>
                      </AnchorLink>
                   </li>
 
                   <li className="nav-list">
-                     <AnchorLink href="#skills">
+                     <AnchorLink href="#skills" aria-label="Skills">
                            <span className="mobile-menu-name"><InfoIcon fontSize="large" /></span>
                            <span className="desktop-menu-name">My Expertise</span>
                      </AnchorLink>
                   </li>
 
                   <li className="nav-list">
-                     <AnchorLink href="#projects">
+                     <AnchorLink href="#projects" aria-label="Projects">
                            <span className="mobile-menu-name"><WorkIcon fontSize="large" /></span>
                            <span className="desktop-menu-name">Projects</span>
                      </AnchorLink>
                   </li>
 
                   <li className="nav-list">
-                     <AnchorLink href="#blog">
+                     <AnchorLink href="#blog" aria-label="Blog">
                            <span className="mobile-menu-name"><TimelineIcon fontSize="large" /></span>
                            <span className="desktop-menu-name">Blog</span>
                      </AnchorLink>
                   </li>
 
                   <li className="nav-list">
-                     <AnchorLink href="#contact-me">
+                     <AnchorLink href="#contact-me" aria-label="Contact Me">
                            <span className="mobile-menu-name"><ContactMailIcon fontSize="large" /></span>
                            <span className="desktop-menu-name">Contact Me</span>
                      </AnchorLink>
