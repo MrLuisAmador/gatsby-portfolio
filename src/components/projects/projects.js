@@ -21,6 +21,57 @@ import beauty from "../../images/beautyplussalon.png"
 import sim from "../../images/simoneperele.png"
 import julia from "../../images/juliab.png"
 
+const projectLists = [
+    { id: 1, url: "https://gme.healthquest.org/", label: "gme.healthquest.org", filter: "filter-two", platform: "WordPress", image: health },
+    { id: 2, url: "https://www.thinkdifferently.net/", label: "thinkdifferently.net", filter: "filter-two", platform: "WordPress", image: think },
+    { id: 3, url: "http://www.zarembabrown.com/", label: "zarembabrown.com", filter: "filter-two", platform: "WordPress", image: zaren },
+    { id: 4, url: "http://www.westchesterbusinesscenter.com/", label: "westchesterbusinesscenter.com", filter: "filter-three", platform: "Business Catalyst", image: westchester },
+    { id: 5, url: "http://thebonecompany.com/", label: "thebonecompany.com", filter: "filter-two", platform: "WordPress", image: theBone },
+    { id: 6, url: "http://suburbanpest.com/", label: "suburbanpest.com", filter: "filter-two", platform: "WordPress", image: suburban },
+    { id: 7, url: "http://www.1-800dogbone.com/", label: "1-800dogbone.com", filter: "filter-two", platform: "WordPress", image: bone },
+    { id: 8, url: "http://www.ossiningchildrenscenter.org/", label: "ossiningchildrenscenter.org", filter: "filter-three", platform: "Business Catalyst", image: ossin },
+    { id: 9, url: "hhttp://www.legaleaseinc.com/", label: "legaleaseinc.com", filter: "filter-three", platform: "Business Catalyst", image: legal },
+    { id: 10, url: "http://www.kelly-ip.com/", label: "kelly-ip.com", filter: "filter-three", platform: "Business Catalyst", image: kelly },
+    { id: 11, url: "http://www.climbleadership.com/", label: "climbleadership.com", filter: "filter-three", platform: "Business Catalyst", image: climb },
+    { id: 12, url: "http://www.mrluisamador.com/", label: "mrluisamador.com", filter: "filter-three", platform: "Gatsby", image: luis },
+    { id: 13, url: "https://la.bridgeprops.com/", label: "la.bridgeprops.com", filter: "filter-one", platform: "Magento 1", image: bridge },
+    { id: 14, url: "https://primitivesbykathy.com/", label: "primitivesbykathy.com", filter: "filter-one", platform: "Magento 1", image: prim },
+    { id: 15, url: "https://www.organicpharmer.com/", label: "organicpharmer.com", filter: "filter-one", platform: "Magento 1", image: organ },
+    { id: 16, url: "https://www.beautyplussalon.com/", label: "beautyplussalon.com", filter: "filter-one", platform: "Magento 1", image: beauty },
+    { id: 17, url: "https://www.simoneperele.com/", label: "simoneperele.com", filter: "filter-one", platform: "Magento 1", image: sim },
+    { id: 18, url: "https://juliab.com/", label: "juliab.com", filter: "filter-one", platform: "Magento 2", image: julia }
+]
+  
+function Project({ lists }) {
+return (
+        <>
+            { lists.map( list => (
+            <div className={ `grid-item wordpress-projects filter-item ${list.filter}` } key={list.id}>
+                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href={list.url} aria-label={list.label}>
+                <div className="project-box">
+                    <div className="project-box__img">
+                    <img
+                        width="800"
+                        height="389"
+                        rel="noopener noreferrer"
+                        src={list.image}
+                        className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
+                        alt={list.label}
+                    />
+                    </div>
+
+                    <ul className="project-box__content">
+                    <li className="content__item project-box__tax">Platform:</li>
+                    <li className="content__item project-box__tax">{list.platform}</li>
+                    </ul>
+                </div>
+                </a>
+            </div>
+            ))}
+        </>
+    )
+}
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -62,402 +113,9 @@ class Projects extends React.Component {
           </div>
 
           <div id="filter-container" className="grid">
-            <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://gme.healthquest.org/" aria-label="gme.healthquest.org">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={health}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt="Health"
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.thinkdifferently.net/" aria-label="thinkdifferently.net">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={think}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt="Think" />
-                    </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.zarembabrown.com/" aria-label="zarembabrown.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={zaren}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt="zaren"
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.westchesterbusinesscenter.com/" aria-label="westchesterbusinesscenter.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={westchester}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt="westchester"
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Business Catalyst</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://thebonecompany.com/" aria-label="thebonecompany.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={theBone}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://suburbanpest.com/" aria-label="suburbanpest.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={suburban}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item misc-projects filter-item filter-three">          
-                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.ossiningchildrenscenter.org/" aria-label="ossiningchildrenscenter.org">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={ossin}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                   </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Business Catalyst</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.legaleaseinc.com/" aria-label="legaleaseinc.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={legal}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Business Catalyst</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.kelly-ip.com/" aria-label="kelly-ip.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={kelly}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Business Catalyst</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item misc-projects filter-item filter-three">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.climbleadership.com/" aria-label="climbleadership.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={climb}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Business Catalyst</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item wordpress-projects filter-item filter-two">           
-                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.1-800dogbone.com/" aria-label="1-800dogbone.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={bone}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                    </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item wordpress-projects filter-item filter-two">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="http://www.mrluisamador.com/" aria-label="mrluisamador.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={luis}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">WordPress</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://la.bridgeprops.com/" aria-label="la.bridgeprops.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={bridge}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 1</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://primitivesbykathy.com/" aria-label="primitivesbykathy.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={prim}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 1</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">             
-                <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.organicpharmer.com/" aria-label="organicpharmer.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={organ}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 1</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.beautyplussalon.com/" aria-label="beautyplussalon.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={beauty}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 1</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://www.simoneperele.com/" aria-label="simoneperele.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={sim}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                  </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 1</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-
-            <div className="grid-item magento-projects filter-item filter-one">
-              <a className="grid-item__link" target="_blank" rel="noopener noreferrer" href="https://juliab.com/" aria-label="juliab.com">
-                <div className="project-box">
-                  <div className="project-box__img">
-                    <img
-                      width="800"
-                      height="389"
-                      rel="noopener noreferrer"
-                      src={julia}
-                      className="attachment-my-project-customize-size size-my-project-customize-size wp-post-image"
-                      alt=""
-                    />
-                </div>
-
-                  <ul className="project-box__content">
-                    <li className="content__item project-box__tax">Platform:</li>
-                    <li className="content__item project-box__tax">Magento 2</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
+            <Project lists={projectLists} />
           </div>
-        </section>
+      </section>
     )
   }
 }
