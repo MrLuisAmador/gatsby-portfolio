@@ -31,7 +31,7 @@
     "react-helmet": "^6.1.0",
     "react-hook-form": "^6.3.0",
     "react-isotope": "^1.0.7",
-    "sharp": "^0.25.4"
+    "sharp": "^0.30.5"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
